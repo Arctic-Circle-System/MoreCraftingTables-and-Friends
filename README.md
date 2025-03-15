@@ -1,13 +1,22 @@
-# MoreCraftingTables
+# MoreCraftingTables and Friends
+
+## Purpose
+Pretty much all this fork does is add Dyenamics support to the 1.21.1 version of MoreCraftingTables. Also adds the code for the latest 1.21.1 version, with my modifications, to a separate branch from 1.21.3, which was not done in mainline despite that version being updated (thank you [javadecompilers.com](http://www.javadecompilers.com/)).
 
 Mod ported from
 - [OhHowTheCraftingHasTabled](https://github.com/P3NG00/OhHowTheCraftingHasTabled)
+
+Mod forked from
+- [MoreCraftingTables](https://github.com/852DuartePls/MoreCraftingTables)
+
+Textures created with a version of texturegen.py from
+- [Dyenamics](https://github.com/JDKDigital/dyenamics)
 
 This mod respects the original author's license
 
 ## MIT License
 
-Copyright (c) 2020 Bryant Finnern
+Copyright (c) 2025 Arctic Circle System
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
