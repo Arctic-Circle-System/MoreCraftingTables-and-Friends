@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "regions_unexplored:socotra_planks"
+    "#": {
+      "item": "regions_unexplored:socotra_planks"
+    }
   },
   "result": {
      "id":  "mctb:socotra_crafting_table",

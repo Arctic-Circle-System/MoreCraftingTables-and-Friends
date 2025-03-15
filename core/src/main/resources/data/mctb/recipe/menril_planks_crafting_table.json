@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#":"integrateddynamics:menril_planks"
+    "#": {
+      "item": "integrateddynamics:menril_planks"
+    }
   },
   "result": {
      "id":  "minecraft:crafting_table",

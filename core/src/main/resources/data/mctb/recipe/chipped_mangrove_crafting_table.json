@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "mctb:chipped_mangrove_planks"
+    "#": {
+      "tag": "mctb:chipped_mangrove_planks"
+    }
   },
   "result": {
      "id": "mctb:mangrove_crafting_table"

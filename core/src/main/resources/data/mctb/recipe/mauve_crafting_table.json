@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "regions_unexplored:mauve_planks"
+    "#": {
+      "item": "regions_unexplored:mauve_planks"
+    }
   },
   "result": {
      "id":  "mctb:mauve_crafting_table",

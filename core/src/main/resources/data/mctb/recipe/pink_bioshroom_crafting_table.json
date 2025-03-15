@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "regions_unexplored:pink_bioshroom_planks"
+    "#": {
+      "item": "regions_unexplored:pink_bioshroom_planks"
+    }
   },
   "result": {
      "id":  "mctb:pink_bioshroom_crafting_table",

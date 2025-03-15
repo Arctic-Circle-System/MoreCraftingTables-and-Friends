@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "mctb:chipped_warped_planks"
+    "#": {
+      "tag": "mctb:chipped_warped_planks"
+    }
   },
   "result": {
      "id": "mctb:warped_crafting_table"

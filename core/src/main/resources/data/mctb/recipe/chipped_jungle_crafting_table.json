@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "mctb:chipped_jungle_planks"
+    "#": {
+      "tag": "mctb:chipped_jungle_planks"
+    }
   },
   "result": {
      "id": "mctb:jungle_crafting_table"

@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "deeperdarker:echo_planks"
+    "#": {
+      "item": "deeperdarker:echo_planks"
+    }
   },
   "result": {
      "id": "minecraft:crafting_table",

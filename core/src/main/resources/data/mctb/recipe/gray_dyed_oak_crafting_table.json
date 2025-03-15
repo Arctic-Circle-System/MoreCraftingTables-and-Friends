@@ -6,8 +6,12 @@
         "###"
     ],
     "key": {
-        "#": "minecraft:gray_dye",
-        "X": "minecraft:crafting_table"
+        "#": {
+            "item": "minecraft:gray_dye"
+        },
+        "X": {
+            "item": "minecraft:crafting_table"
+        }
     },
     "result": {
         "id": "mctb:gray_dyed_oak_crafting_table"

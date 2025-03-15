@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "regions_unexplored:maple_planks"
+    "#": {
+      "item": "regions_unexplored:maple_planks"
+    }
   },
   "result": {
      "id":  "mctb:maple_crafting_table",

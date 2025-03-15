@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "regions_unexplored:eucalyptus_planks"
+    "#": {
+      "item": "regions_unexplored:eucalyptus_planks"
+    }
   },
   "result": {
      "id":  "mctb:eucalyptus_crafting_table",

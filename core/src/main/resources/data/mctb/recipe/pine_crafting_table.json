@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "regions_unexplored:pine_planks"
+    "#": {
+      "item": "regions_unexplored:pine_planks"
+    }
   },
   "result": {
      "id":  "mctb:pine_crafting_table",

@@ -5,7 +5,9 @@
         "##"
     ],
     "key": {
-        "#": "biomesoplenty:pine_planks"
+        "#": {
+            "item": "biomesoplenty:pine_planks"
+        }
     },
     "result": {
         "id": "mctb:bop_pine_crafting_table",

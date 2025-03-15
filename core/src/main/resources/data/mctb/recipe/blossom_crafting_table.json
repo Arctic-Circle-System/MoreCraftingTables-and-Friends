@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "quark:blossom_planks"
+    "#": {
+      "item": "quark:blossom_planks"
+    }
   },
   "result": {
      "id": "mctb:blossom_crafting_table",

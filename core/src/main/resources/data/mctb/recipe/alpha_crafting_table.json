@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "regions_unexplored:alpha_planks"
+    "#": {
+      "item": "regions_unexplored:alpha_planks"
+    }
   },
   "result": {
      "id": "mctb:alpha_crafting_table",

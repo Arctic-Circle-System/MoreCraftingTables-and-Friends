@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "mctb:regions_unexplored_painted_planks"
+    "#": {
+      "tag": "mctb:regions_unexplored_painted_planks"
+    }
   },
   "result": {
      "id": "mctb:alpha_crafting_table"

@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "biomesoplenty:jacaranda_planks"
+    "#": {
+      "item": "biomesoplenty:jacaranda_planks"
+    }
   },
   "result": {
      "id":  "mctb:jacaranda_crafting_table",

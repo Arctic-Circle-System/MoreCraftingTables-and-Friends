@@ -8,18 +8,20 @@ import net.minecraft.world.SimpleMenuProvider;
 import net.minecraft.world.inventory.ContainerLevelAccess;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.CraftingTableBlock;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import org.jetbrains.annotations.NotNull;
 
 public class CraftingBlock extends CraftingTableBlock {
-    private static final Component GUI_TITLE = Component.translatable("container.crafting");
+   private static final Component GUI_TITLE = Component.translatable("container.crafting");
 
-    public CraftingBlock(BlockBehaviour.Properties properties) {
-        super(properties);
-    }
+   public CraftingBlock(Properties properties) {
+      super(properties);
+   }
 
-    public MenuProvider getMenuProvider(@NotNull BlockState state, @NotNull Level worldIn, @NotNull BlockPos pos) {
-        return new SimpleMenuProvider((id, inventory, entity) -> new CraftingContainer(id, inventory, ContainerLevelAccess.create(worldIn, pos), this), GUI_TITLE);
-    }
+   public MenuProvider getMenuProvider(@NotNull BlockState state, @NotNull Level worldIn, @NotNull BlockPos pos) {
+      return new SimpleMenuProvider((id, inventory, entity) -> {
+         return new CraftingContainer(id, inventory, ContainerLevelAccess.create(worldIn, pos), this);
+      }, GUI_TITLE);
+   }
 }

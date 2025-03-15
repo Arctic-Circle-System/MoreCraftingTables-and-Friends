@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "mctb:block/amber_dyed_oak_crafting_table_front",
+        "up": "mctb:block/amber_dyed_oak_crafting_table_top",
+        "down": "mctb:block/amber_dyed_oak_planks",
+        "north": "mctb:block/amber_dyed_oak_crafting_table_front",
+        "south": "mctb:block/amber_dyed_oak_crafting_table_side",
+        "west": "mctb:block/amber_dyed_oak_crafting_table_front",
+        "east": "mctb:block/amber_dyed_oak_crafting_table_side"
+    }
+}

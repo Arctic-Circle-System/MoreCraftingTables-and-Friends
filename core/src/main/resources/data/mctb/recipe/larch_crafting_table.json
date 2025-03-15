@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "regions_unexplored:larch_planks"
+    "#": {
+      "item": "regions_unexplored:larch_planks"
+    }
   },
   "result": {
      "id":  "mctb:larch_crafting_table",

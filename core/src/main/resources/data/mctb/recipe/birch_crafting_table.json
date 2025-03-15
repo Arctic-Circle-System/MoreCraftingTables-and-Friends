@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "minecraft:birch_planks"
+    "#": {
+      "item": "minecraft:birch_planks"
+    }
   },
   "result": {
     "id": "mctb:birch_crafting_table"

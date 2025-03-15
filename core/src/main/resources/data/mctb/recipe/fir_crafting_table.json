@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "biomesoplenty:fir_planks"
+    "#": {
+      "item": "biomesoplenty:fir_planks"
+    }
   },
   "result": {
      "id":  "mctb:fir_crafting_table",

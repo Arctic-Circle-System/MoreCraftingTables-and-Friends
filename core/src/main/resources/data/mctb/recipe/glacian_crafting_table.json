@@ -5,7 +5,9 @@
         "##"
     ],
     "key": {
-        "#": "ad_astra:glacian_planks"
+        "#": {
+            "item": "ad_astra:glacian_planks"
+        }
     },
     "result": {
         "id": "mctb:glacian_crafting_table",

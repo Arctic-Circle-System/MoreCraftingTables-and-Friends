@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "minecraft:oak_planks"
+    "#": {
+      "item": "minecraft:oak_planks"
+    }
   },
   "result": {
     "id": "minecraft:crafting_table",

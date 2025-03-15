@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "minecraft:warped_planks"
+    "#": {
+      "item": "minecraft:warped_planks"
+    }
   },
   "result": {
     "id": "mctb:warped_crafting_table"

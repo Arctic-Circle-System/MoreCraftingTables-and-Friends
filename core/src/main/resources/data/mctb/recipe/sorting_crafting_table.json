@@ -5,7 +5,9 @@
         "##"
     ],
     "key": {
-        "#": "twilightforest:sorting_planks"
+        "#": {
+            "item": "twilightforest:sorting_planks"
+        }
     },
     "result": {
         "id": "mctb:sorting_crafting_table",

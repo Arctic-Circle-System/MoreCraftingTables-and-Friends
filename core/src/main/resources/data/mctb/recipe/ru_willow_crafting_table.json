@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "regions_unexplored:willow_planks"
+    "#": {
+      "item": "regions_unexplored:willow_planks"
+    }
   },
   "result": {
      "id":  "mctb:ru_willow_crafting_table",

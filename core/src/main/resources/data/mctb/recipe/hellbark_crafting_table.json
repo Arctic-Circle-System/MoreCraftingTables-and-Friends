@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "biomesoplenty:hellbark_planks"
+    "#": {
+      "item": "biomesoplenty:hellbark_planks"
+    }
   },
   "result": {
      "id":  "mctb:hellbark_crafting_table",

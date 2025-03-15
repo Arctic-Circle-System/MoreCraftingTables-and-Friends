@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "biomesoplenty:dead_planks"
+    "#": {
+      "item": "biomesoplenty:dead_planks"
+    }
   },
   "result": {
      "id": "mctb:dead_crafting_table",

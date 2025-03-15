@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "minecraft:mangrove_planks"
+    "#": {
+      "item": "minecraft:mangrove_planks"
+    }
   },
   "result": {
     "id": "mctb:mangrove_crafting_table",

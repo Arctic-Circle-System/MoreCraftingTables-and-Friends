@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "mctb:chipped_oak_planks"
+    "#": {
+      "tag": "mctb:chipped_oak_planks"
+    }
   },
   "result": {
     "item": "minecraft:crafting_table"

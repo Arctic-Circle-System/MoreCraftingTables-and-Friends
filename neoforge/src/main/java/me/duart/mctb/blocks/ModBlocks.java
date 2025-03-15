@@ -2,53 +2,55 @@ package me.duart.mctb.blocks;
 
 import com.duart.mctb.blocks.BlockIds;
 import com.duart.mctb.blocks.CraftingBlock;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceKey;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.neoforged.neoforge.registries.DeferredBlock;
+import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.function.Supplier;
-
-import static com.duart.mctb.Constants.id;
-import static me.duart.mctb.blocks.Registration.BLOCKS;
-import static me.duart.mctb.blocks.Registration.ITEMS;
-import static net.minecraft.world.level.block.Blocks.CRAFTING_TABLE;
-
 public class ModBlocks {
+   public static final List<DeferredBlock<CraftingBlock>> CRAFTING_TABLES = createCraftingTables();
 
-    public static final Map<String, DeferredBlock<Block>> CRAFTING_TABLES = createCraftingTables();
+   private static List<DeferredBlock<CraftingBlock>> createCraftingTables() {
+      List<DeferredBlock<CraftingBlock>> craftingTables = new ArrayList();
+      String[] var1 = BlockIds.CRAFTING_TABLES;
+      int var2 = var1.length;
 
-    private static @NotNull Map<String, DeferredBlock<Block>> createCraftingTables() {
-        Map<String, DeferredBlock<Block>> craftingTables = new LinkedHashMap<>();
-        for (String tableName : BlockIds.CRAFTING_TABLES) {
-            craftingTables.put(tableName, registerCraftingTable(tableName + "_crafting_table"));
-        }
-        return craftingTables;
-    }
+      for(int var3 = 0; var3 < var2; ++var3) {
+         String tableName = var1[var3];
+         craftingTables.add(register(tableName + "_crafting_table"));
+      }
 
-    public static @NotNull DeferredBlock<Block> registerCraftingTable(String name) {
-        BlockBehaviour.Properties blockProperties = BlockBehaviour.Properties.ofFullCopy(CRAFTING_TABLE);
-        return createRegistry(name, () -> new CraftingBlock(blockProperties), blockProperties, new Item.Properties());
-    }
+      return craftingTables;
+   }
 
-    private static @NotNull DeferredBlock<Block> createRegistry(String name, Supplier<Block> blockSupplier, BlockBehaviour.@NotNull Properties blockProperties, Item.@NotNull Properties itemProperties) {
-        ResourceKey<Block> blockKey = ResourceKey.create(Registries.BLOCK, id(name));
-        ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, id(name));
+   public static DeferredBlock<CraftingBlock> register(String name) {
+      return Registration.registerBlock(name, ModBlocks::createCraftingBlock);
+   }
 
-        blockProperties.setId(blockKey);
-        itemProperties.useBlockDescriptionPrefix().setId(itemKey);
+   @Contract(" -> new")
+   @NotNull
+   private static CraftingBlock createCraftingBlock() {
+      return new CraftingBlock(Properties.ofFullCopy(Blocks.CRAFTING_TABLE));
+   }
 
-        DeferredBlock<Block> block = BLOCKS.register(name, blockSupplier);
-        ITEMS.register(name, () -> new BlockItem(block.get(), itemProperties));
+   public static void registerBlockItems() {
+      Iterator var0 = CRAFTING_TABLES.iterator();
 
-        return block;
-    }
+      while(var0.hasNext()) {
+         DeferredBlock<CraftingBlock> blockObject = (DeferredBlock)var0.next();
+         Registration.ITEMS.register(blockObject.getId().getPath(), () -> {
+            return new BlockItem((Block)blockObject.get(), new net.minecraft.world.item.Item.Properties());
+         });
+      }
 
-    public static void init() {}
+   }
+
+   public static void register() {
+   }
 }

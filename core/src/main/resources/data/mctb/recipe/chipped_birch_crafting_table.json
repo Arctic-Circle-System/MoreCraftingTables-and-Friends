@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "mctb:chipped_birch_planks"
+    "#": {
+      "tag": "mctb:chipped_birch_planks"
+    }
   },
   "result": {
      "id": "mctb:birch_crafting_table"

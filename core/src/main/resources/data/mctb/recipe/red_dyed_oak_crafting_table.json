@@ -6,8 +6,12 @@
         "###"
     ],
     "key": {
-        "#": "minecraft:red_dye",
-        "X": "minecraft:crafting_table"
+        "#": {
+            "item": "minecraft:red_dye"
+        },
+        "X": {
+            "item": "minecraft:crafting_table"
+        }
     },
     "result": {
         "id": "mctb:red_dyed_oak_crafting_table"

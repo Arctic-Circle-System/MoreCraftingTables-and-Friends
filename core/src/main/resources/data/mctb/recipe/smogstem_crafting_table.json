@@ -5,7 +5,9 @@
         "##"
     ],
     "key": {
-        "#": "undergarden:smogstem_planks"
+        "#": {
+            "item": "undergarden:smogstem_planks"
+        }
     },
     "result": {
         "id": "mctb:smogstem_crafting_table",

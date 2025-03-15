@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "mctb:chipped_dark_oak_planks"
+    "#": {
+      "tag": "mctb:chipped_dark_oak_planks"
+    }
   },
   "result": {
      "id": "mctb:dark_oak_crafting_table"

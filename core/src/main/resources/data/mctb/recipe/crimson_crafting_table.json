@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "minecraft:crimson_planks"
+    "#": {
+      "item": "minecraft:crimson_planks"
+    }
   },
   "result": {
     "id": "mctb:crimson_crafting_table",

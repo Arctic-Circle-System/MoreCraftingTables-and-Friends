@@ -6,7 +6,9 @@
     "##"
   ],
   "key": {
-    "#": "mctb:chipped_acacia_planks"
+    "#": {
+      "tag": "mctb:chipped_acacia_planks"
+    }
   },
   "result": {
      "id": "mctb:acacia_crafting_table"

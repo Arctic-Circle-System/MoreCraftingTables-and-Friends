@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "regions_unexplored:yellow_bioshroom_planks"
+    "#": {
+      "item": "regions_unexplored:yellow_bioshroom_planks"
+    }
   },
   "result": {
     "id": "mctb:yellow_bioshroom_crafting_table",

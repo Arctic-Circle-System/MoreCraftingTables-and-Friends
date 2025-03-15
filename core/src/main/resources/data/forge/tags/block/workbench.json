@@ -11,6 +11,7 @@
     "mctb:cherry_crafting_table",
     "mctb:bamboo_crafting_table",
     "mctb:mangrove_crafting_table",
+
     "mctb:dead_crafting_table",
     "mctb:fir_crafting_table",
     "mctb:hellbark_crafting_table",
@@ -24,15 +25,19 @@
     "mctb:bop_maple_crafting_table",
     "mctb:bop_pine_crafting_table",
     "mctb:empyreal_crafting_table",
+
     "mctb:azalea_crafting_table",
     "mctb:ancient_crafting_table",
+
     "mctb:aeronos_crafting_table",
     "mctb:strophar_crafting_table",
     "mctb:glacian_crafting_table",
     "mctb:ad_ancient_crafting_table",
+
     "mctb:smogstem_crafting_table",
     "mctb:wigglewood_crafting_table",
     "mctb:grongle_crafting_table",
+
     "mctb:twilight_oak_crafting_table",
     "mctb:canopy_crafting_table",
     "mctb:twilight_mangrove_crafting_table",
@@ -42,6 +47,7 @@
     "mctb:mining_crafting_table",
     "mctb:sorting_crafting_table",
     "mctb:towerwood_crafting_table",
+
     "mctb:alpha_crafting_table",
     "mctb:baobab_crafting_table",
     "mctb:blackwood_crafting_table",
@@ -65,21 +71,24 @@
     "mctb:socotra_crafting_table",
     "mctb:ru_willow_crafting_table",
     "mctb:yellow_bioshroom_crafting_table",
-    "mctb:white_dyed_oak_crafting_table",
-    "mctb:red_dyed_oak_crafting_table",
-    "mctb:orange_dyed_oak_crafting_table",
-    "mctb:pink_dyed_oak_crafting_table",
-    "mctb:yellow_dyed_oak_crafting_table",
-    "mctb:lime_dyed_oak_crafting_table",
-    "mctb:green_dyed_oak_crafting_table",
-    "mctb:light_blue_dyed_oak_crafting_table",
-    "mctb:cyan_dyed_oak_crafting_table",
-    "mctb:blue_dyed_oak_crafting_table",
-    "mctb:magenta_dyed_oak_crafting_table",
-    "mctb:purple_dyed_oak_crafting_table",
-    "mctb:brown_dyed_oak_crafting_table",
-    "mctb:gray_dyed_oak_crafting_table",
-    "mctb:light_gray_dyed_oak_crafting_table",
-    "mctb:black_dyed_oak_crafting_table"
+
+    "mctb:honey_dyed_oak_crafting_table",
+    "mctb:mint_dyed_oak_crafting_table",
+    "mctb:lavender_dyed_oak_crafting_table",
+    "mctb:navy_dyed_oak_crafting_table",
+    "mctb:bubblegum_dyed_oak_crafting_table",
+    "mctb:amber_dyed_oak_crafting_table",
+    "mctb:conifer_dyed_oak_crafting_table",
+    "mctb:icy_blue_dyed_oak_crafting_table",
+    "mctb:ultramarine_dyed_oak_crafting_table",
+    "mctb:maroon_dyed_oak_crafting_table",
+    "mctb:wine_dyed_oak_crafting_table",
+    "mctb:rose_dyed_oak_crafting_table",
+    "mctb:fluorescent_dyed_oak_crafting_table",
+    "mctb:spring_green_dyed_oak_crafting_table",
+    "mctb:peach_dyed_oak_crafting_table",
+    "mctb:cherenkov_dyed_oak_crafting_table",
+    "mctb:aquamarine_dyed_oak_crafting_table",
+    "mctb:persimmon_dyed_oak_crafting_table"
   ]
 }

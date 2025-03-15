@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "dyenamics:aquamarine_dye"
+        },
+        "X": {
+            "item": "minecraft:crafting_table"
+        }
+    },
+    "result": {
+        "id": "mctb:aquamarine_dyed_oak_crafting_table"
+    }
+}

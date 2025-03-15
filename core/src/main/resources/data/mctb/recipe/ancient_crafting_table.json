@@ -5,7 +5,9 @@
     "##"
   ],
   "key": {
-    "#": "quark:ancient_planks"
+    "#": {
+      "item": "quark:ancient_planks"
+    }
   },
   "result": {
      "id": "mctb:ancient_crafting_table",
